@@ -1,0 +1,38 @@
+# Hair Care AI Application Configuration
+
+# Model Configuration
+models:
+  yolo_model_path: "best.pt"
+  confidence_threshold: 0.25
+  iou_threshold: 0.7
+  max_detections: 300
+  image_size: 640
+
+# Class Definitions
+classes:
+  d: "Dandruff"
+  ds: "Dandruff + Sensitive"
+  o: "Oiliness"
+  s: "Sensitive"
+  os: "Oiliness + Sensitive"
+  dss: "Dandruff + Sensitive + Sensitive"
+
+# Application Settings
+app:
+  title: "Hair Care AI - Scalp Health Analysis"
+  max_file_size: 50  # MB
+  supported_formats: ["jpg", "jpeg", "png", "bmp"]
+  min_resolution: [224, 224]
+  max_resolution: [4096, 4096]
+
+# Processing Settings
+processing:
+  batch_size: 16
+  num_workers: 4
+  device: "auto"  # auto, cpu, cuda
+
+# Output Settings
+output:
+  save_annotated_images: true
+  generate_reports: true
+  export_data: true 

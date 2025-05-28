@@ -1,0 +1,175 @@
+2025-05-28 20:29:26 - HairCareAI - INFO - ImageProcessor initialized
+2025-05-28 20:29:26 - HairCareAI - INFO - Image quality assessed: Excellent (Score: 85.0)
+2025-05-28 20:29:26 - HairCareAI - INFO - Image preprocessed to size: (640, 640, 3)
+2025-05-28 20:29:27 - HairCareAI - INFO - Image enhanced with mild level
+2025-05-28 20:29:27 - HairCareAI - INFO - ModelManager initialized on device: cpu
+2025-05-28 20:29:27 - HairCareAI - INFO - ResultProcessor initialized
+2025-05-28 20:29:27 - HairCareAI - INFO - Analysis results processed successfully
+2025-05-28 20:41:45 - HairCareAI - INFO - Hair Care AI v1.0.0 initialized
+2025-05-28 20:41:45 - HairCareAI - INFO - Starting GUI application...
+2025-05-28 20:42:45 - HairCareAI - INFO - ImageProcessor initialized
+2025-05-28 20:42:45 - HairCareAI - INFO - ModelManager initialized on device: cpu
+2025-05-28 20:42:45 - HairCareAI - INFO - ResultProcessor initialized
+2025-05-28 20:42:45 - HairCareAI - INFO - AnalysisPipeline initialized
+2025-05-28 20:42:45 - HairCareAI - INFO - Auto-enhance set to: True
+2025-05-28 20:42:45 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 20:42:45 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 20:42:45 - HairCareAI - INFO - Initializing AI models...
+2025-05-28 20:42:45 - HairCareAI - INFO - YOLOModel initialized with device: cpu
+2025-05-28 20:42:45 - HairCareAI - INFO - Loading YOLO model from: best.pt
+2025-05-28 20:42:46 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 20:42:46 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 20:42:47 - HairCareAI - INFO - CNN model wrapper initialized on device: cpu
+2025-05-28 20:42:47 - HairCareAI - INFO - ScalpCNN initialized without pre-trained weights
+2025-05-28 20:42:47 - HairCareAI - INFO - CNN model wrapper initialized on device: cpu
+2025-05-28 20:42:47 - HairCareAI - INFO - HairHealthCNN initialized without pre-trained weights
+2025-05-28 20:42:47 - HairCareAI - INFO - Model initialization completed: {'yolo': True, 'scalp_cnn': False, 'hair_cnn': False, 'ensemble': False}
+2025-05-28 20:42:47 - HairCareAI - INFO - Pipeline initialized via Streamlit interface
+2025-05-28 20:49:36 - HairCareAI - INFO - ImageProcessor initialized
+2025-05-28 20:49:36 - HairCareAI - INFO - ModelManager initialized on device: cpu
+2025-05-28 20:49:36 - HairCareAI - INFO - ResultProcessor initialized
+2025-05-28 20:49:36 - HairCareAI - INFO - AnalysisPipeline initialized
+2025-05-28 20:49:36 - HairCareAI - INFO - Auto-enhance set to: True
+2025-05-28 20:49:36 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 20:49:36 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 20:49:36 - HairCareAI - INFO - Initializing AI models...
+2025-05-28 20:49:36 - HairCareAI - INFO - YOLOModel initialized with device: cpu
+2025-05-28 20:49:36 - HairCareAI - INFO - Loading YOLO model from: best.pt
+2025-05-28 20:49:36 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 20:49:36 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 20:49:36 - HairCareAI - ERROR - Failed to load ScalpCNN: 'ModelManager' object has no attribute 'class_names'
+2025-05-28 20:49:36 - HairCareAI - ERROR - Failed to load HairHealthCNN: 'ModelManager' object has no attribute 'class_names'
+2025-05-28 20:49:36 - HairCareAI - INFO - Model initialization completed: {'yolo': True, 'scalp_cnn': False, 'hair_cnn': False, 'ensemble': False}
+2025-05-28 20:49:36 - HairCareAI - INFO - Pipeline initialized via Streamlit interface
+2025-05-28 20:55:39 - HairCareAI - INFO - ImageProcessor initialized
+2025-05-28 20:55:39 - HairCareAI - INFO - ModelManager initialized on device: cpu
+2025-05-28 20:55:39 - HairCareAI - INFO - ResultProcessor initialized
+2025-05-28 20:55:39 - HairCareAI - INFO - AnalysisPipeline initialized
+2025-05-28 20:55:39 - HairCareAI - INFO - Auto-enhance set to: True
+2025-05-28 20:55:39 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 20:55:39 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 20:55:39 - HairCareAI - INFO - Initializing AI models...
+2025-05-28 20:55:39 - HairCareAI - INFO - YOLOModel initialized with device: cpu
+2025-05-28 20:55:39 - HairCareAI - INFO - Loading YOLO model from: best.pt
+2025-05-28 20:55:39 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 20:55:39 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 20:55:39 - HairCareAI - ERROR - Failed to load ScalpCNN: 'ModelManager' object has no attribute 'class_names'
+2025-05-28 20:55:39 - HairCareAI - ERROR - Failed to load HairHealthCNN: 'ModelManager' object has no attribute 'class_names'
+2025-05-28 20:55:39 - HairCareAI - INFO - Model initialization completed: {'yolo': True, 'scalp_cnn': False, 'hair_cnn': False, 'ensemble': False}
+2025-05-28 20:55:39 - HairCareAI - INFO - Pipeline initialized via Streamlit interface
+2025-05-28 20:56:14 - HairCareAI - ERROR - Streamlit analysis failed: 'NoneType' object has no attribute 'set_progress_callback'
+2025-05-28 20:58:23 - HairCareAI - INFO - ImageProcessor initialized
+2025-05-28 20:58:23 - HairCareAI - INFO - ModelManager initialized on device: cpu
+2025-05-28 20:58:23 - HairCareAI - INFO - ResultProcessor initialized
+2025-05-28 20:58:23 - HairCareAI - INFO - AnalysisPipeline initialized
+2025-05-28 20:58:23 - HairCareAI - INFO - Auto-enhance set to: True
+2025-05-28 20:58:23 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 20:58:23 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 20:58:23 - HairCareAI - INFO - Initializing AI models...
+2025-05-28 20:58:23 - HairCareAI - INFO - YOLOModel initialized with device: cpu
+2025-05-28 20:58:23 - HairCareAI - INFO - Loading YOLO model from: best.pt
+2025-05-28 20:58:24 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 20:58:24 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 20:58:24 - HairCareAI - ERROR - Failed to load ScalpCNN: 'ModelManager' object has no attribute 'class_names'
+2025-05-28 20:58:24 - HairCareAI - ERROR - Failed to load HairHealthCNN: 'ModelManager' object has no attribute 'class_names'
+2025-05-28 20:58:24 - HairCareAI - INFO - Model initialization completed: {'yolo': True, 'scalp_cnn': False, 'hair_cnn': False, 'ensemble': False}
+2025-05-28 20:58:24 - HairCareAI - INFO - Pipeline initialized via Streamlit interface
+2025-05-28 20:58:31 - HairCareAI - INFO - ImageProcessor initialized
+2025-05-28 20:58:31 - HairCareAI - INFO - ModelManager initialized on device: cpu
+2025-05-28 20:58:31 - HairCareAI - INFO - ResultProcessor initialized
+2025-05-28 20:58:31 - HairCareAI - INFO - AnalysisPipeline initialized
+2025-05-28 20:58:31 - HairCareAI - INFO - Auto-enhance set to: True
+2025-05-28 20:58:31 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 20:58:31 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 20:58:31 - HairCareAI - INFO - Initializing AI models...
+2025-05-28 20:58:31 - HairCareAI - INFO - YOLOModel initialized with device: cpu
+2025-05-28 20:58:31 - HairCareAI - INFO - Loading YOLO model from: best.pt
+2025-05-28 20:58:31 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 20:58:31 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 20:58:31 - HairCareAI - ERROR - Failed to load ScalpCNN: 'ModelManager' object has no attribute 'class_names'
+2025-05-28 20:58:31 - HairCareAI - ERROR - Failed to load HairHealthCNN: 'ModelManager' object has no attribute 'class_names'
+2025-05-28 20:58:31 - HairCareAI - INFO - Model initialization completed: {'yolo': True, 'scalp_cnn': False, 'hair_cnn': False, 'ensemble': False}
+2025-05-28 20:58:31 - HairCareAI - INFO - Pipeline initialized via Streamlit interface
+2025-05-28 21:00:41 - HairCareAI - INFO - ImageProcessor initialized
+2025-05-28 21:00:41 - HairCareAI - INFO - ModelManager initialized on device: cpu
+2025-05-28 21:00:41 - HairCareAI - INFO - ResultProcessor initialized
+2025-05-28 21:00:41 - HairCareAI - INFO - AnalysisPipeline initialized
+2025-05-28 21:00:41 - HairCareAI - INFO - Auto-enhance set to: True
+2025-05-28 21:00:41 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 21:00:41 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 21:00:41 - HairCareAI - INFO - Initializing AI models...
+2025-05-28 21:00:41 - HairCareAI - INFO - YOLOModel initialized with device: cpu
+2025-05-28 21:00:41 - HairCareAI - INFO - Loading YOLO model from: best.pt
+2025-05-28 21:00:41 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 21:00:41 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 21:00:42 - HairCareAI - INFO - CNN model wrapper initialized on device: cpu
+2025-05-28 21:00:42 - HairCareAI - INFO - ScalpCNN initialized with random weights (no pre-trained weights available)
+2025-05-28 21:00:42 - HairCareAI - ERROR - Failed to load HairHealthCNN: HairHealthCNN.__init__() got an unexpected keyword argument 'num_classes'
+2025-05-28 21:00:42 - HairCareAI - INFO - Model initialization completed: {'yolo': True, 'scalp_cnn': True, 'hair_cnn': False, 'ensemble': False}
+2025-05-28 21:00:42 - HairCareAI - INFO - Pipeline initialized via Streamlit interface
+2025-05-28 21:02:46 - HairCareAI - INFO - ImageProcessor initialized
+2025-05-28 21:02:46 - HairCareAI - INFO - ModelManager initialized on device: cpu
+2025-05-28 21:02:46 - HairCareAI - INFO - ResultProcessor initialized
+2025-05-28 21:02:46 - HairCareAI - INFO - AnalysisPipeline initialized
+2025-05-28 21:02:46 - HairCareAI - INFO - Auto-enhance set to: True
+2025-05-28 21:02:46 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 21:02:46 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 21:02:46 - HairCareAI - INFO - Initializing AI models...
+2025-05-28 21:02:46 - HairCareAI - INFO - YOLOModel initialized with device: cpu
+2025-05-28 21:02:46 - HairCareAI - INFO - Loading YOLO model from: best.pt
+2025-05-28 21:02:46 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 21:02:46 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 21:02:47 - HairCareAI - INFO - CNN model wrapper initialized on device: cpu
+2025-05-28 21:02:47 - HairCareAI - INFO - ScalpCNN initialized with random weights (no pre-trained weights available)
+2025-05-28 21:02:47 - HairCareAI - INFO - CNN model wrapper initialized on device: cpu
+2025-05-28 21:02:47 - HairCareAI - INFO - HairHealthCNN initialized with random weights (no pre-trained weights available)
+2025-05-28 21:02:47 - HairCareAI - INFO - CNN model wrapper initialized on device: cpu
+2025-05-28 21:02:47 - HairCareAI - INFO - Ensemble model created successfully
+2025-05-28 21:02:47 - HairCareAI - INFO - Model initialization completed: {'yolo': True, 'scalp_cnn': True, 'hair_cnn': True, 'ensemble': True}
+2025-05-28 21:02:47 - HairCareAI - INFO - Pipeline initialized via Streamlit interface
+2025-05-28 21:02:52 - HairCareAI - INFO - Image quality assessed: Excellent (Score: 100.0)
+2025-05-28 21:02:52 - HairCareAI - INFO - Image preprocessed to size: (640, 640, 3)
+2025-05-28 21:02:52 - HairCareAI - INFO - Running YOLO analysis...
+2025-05-28 21:02:52 - HairCareAI - INFO - Running YOLO inference...
+2025-05-28 21:02:52 - HairCareAI - INFO - Annotated image saved to: data\results\detectionjpg_20250528_210252
+2025-05-28 21:02:52 - HairCareAI - INFO - Detection completed. Found 1 objects
+2025-05-28 21:02:52 - HairCareAI - INFO - Running ScalpCNN analysis...
+2025-05-28 21:02:52 - HairCareAI - INFO - Running HairHealthCNN analysis...
+2025-05-28 21:02:52 - HairCareAI - INFO - Running ensemble analysis...
+2025-05-28 21:02:52 - HairCareAI - INFO - Image analysis completed successfully
+2025-05-28 21:02:52 - HairCareAI - INFO - Analysis results processed successfully
+2025-05-28 21:02:52 - HairCareAI - ERROR - Analysis pipeline failed: Object of type bool is not JSON serializable
+2025-05-28 21:07:34 - HairCareAI - INFO - ImageProcessor initialized
+2025-05-28 21:07:34 - HairCareAI - INFO - ModelManager initialized on device: cpu
+2025-05-28 21:07:34 - HairCareAI - INFO - ResultProcessor initialized
+2025-05-28 21:07:34 - HairCareAI - INFO - AnalysisPipeline initialized
+2025-05-28 21:07:34 - HairCareAI - INFO - Auto-enhance set to: True
+2025-05-28 21:07:34 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 21:07:34 - HairCareAI - INFO - Analysis mode set to: comprehensive
+2025-05-28 21:07:34 - HairCareAI - INFO - Initializing AI models...
+2025-05-28 21:07:34 - HairCareAI - INFO - YOLOModel initialized with device: cpu
+2025-05-28 21:07:34 - HairCareAI - INFO - Loading YOLO model from: best.pt
+2025-05-28 21:07:34 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 21:07:34 - HairCareAI - INFO - YOLO model loaded successfully
+2025-05-28 21:07:35 - HairCareAI - INFO - CNN model wrapper initialized on device: cpu
+2025-05-28 21:07:35 - HairCareAI - INFO - ScalpCNN initialized with random weights (no pre-trained weights available)
+2025-05-28 21:07:35 - HairCareAI - INFO - CNN model wrapper initialized on device: cpu
+2025-05-28 21:07:35 - HairCareAI - INFO - HairHealthCNN initialized with random weights (no pre-trained weights available)
+2025-05-28 21:07:35 - HairCareAI - INFO - CNN model wrapper initialized on device: cpu
+2025-05-28 21:07:35 - HairCareAI - INFO - Ensemble model created successfully
+2025-05-28 21:07:35 - HairCareAI - INFO - Model initialization completed: {'yolo': True, 'scalp_cnn': True, 'hair_cnn': True, 'ensemble': True}
+2025-05-28 21:07:35 - HairCareAI - INFO - Pipeline initialized via Streamlit interface
+2025-05-28 21:07:40 - HairCareAI - INFO - Image quality assessed: Excellent (Score: 90.0)
+2025-05-28 21:07:40 - HairCareAI - INFO - Image preprocessed to size: (640, 640, 3)
+2025-05-28 21:07:40 - HairCareAI - INFO - Running YOLO analysis...
+2025-05-28 21:07:40 - HairCareAI - INFO - Running YOLO inference...
+2025-05-28 21:07:40 - HairCareAI - INFO - Annotated image saved to: data\results\detectionjpg_20250528_210740
+2025-05-28 21:07:40 - HairCareAI - INFO - Detection completed. Found 3 objects
+2025-05-28 21:07:40 - HairCareAI - INFO - Running ScalpCNN analysis...
+2025-05-28 21:07:40 - HairCareAI - INFO - Running HairHealthCNN analysis...
+2025-05-28 21:07:40 - HairCareAI - INFO - Running ensemble analysis...
+2025-05-28 21:07:40 - HairCareAI - INFO - Image analysis completed successfully
+2025-05-28 21:07:40 - HairCareAI - INFO - Analysis results processed successfully
+2025-05-28 21:07:43 - HairCareAI - INFO - Pipeline results saved to: data\results\analysis_results.json
+2025-05-28 21:07:43 - HairCareAI - INFO - Analysis completed successfully in 0.47 seconds
+2025-05-28 21:07:44 - HairCareAI - INFO - ResultProcessor initialized
